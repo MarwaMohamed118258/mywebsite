@@ -1,0 +1,23 @@
+<div class="container">
+  <h1>تطبيق تحويل العملات</h1>
+  <div class="currency-converter">
+    <label for="amount">المبلغ:</label>
+    <input type="number" id="amount" placeholder="أدخل المبلغ" min="1">
+    
+    <label for="from-currency">من العملة:</label>
+    <select id="from-currency">
+      <!-- سيتم إضافة الخيارات بواسطة JavaScript -->
+    </select>
+
+    <label for="to-currency">إلى العملة:</label>
+    <select id="to-currency">
+      <!-- سيتم إضافة الخيارات بواسطة JavaScript -->
+    </select>
+
+    <button id="convert-btn">تحويل</button>
+
+    <div class="result">
+      <p>النتيجة: <span id="result"></span></p>
+    </div>
+  </div>
+</div>
